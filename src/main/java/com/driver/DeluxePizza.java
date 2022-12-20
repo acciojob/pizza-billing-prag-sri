@@ -6,4 +6,13 @@ public class DeluxePizza extends Pizza {
         super(isVeg);
         // your code goes here
     }
+    public void addExtraCheese(){
+        // your code goes here
+        boolean extraCheese= false;
+    }
+
+    public void addExtraToppings(){
+        // your code goes here
+        boolean extraToppings= false;
+    }
 }
