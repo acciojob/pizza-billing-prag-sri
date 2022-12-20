@@ -1,18 +1,15 @@
 package com.driver;
 
 public class DeluxePizza extends Pizza {
-
+    boolean extraCheese;
+    boolean extraToppings;
     public DeluxePizza(Boolean isVeg) {
         super(isVeg);
         // your code goes here
-    }
-    public void addExtraCheese(){
-        // your code goes here
-        boolean extraCheese= false;
-    }
+        this.extraCheese= true;
+        this.extraToppings= true;
 
-    public void addExtraToppings(){
-        // your code goes here
-        boolean extraToppings= false;
+        super.addExtraCheese();
+        super.addExtraToppings();
     }
 }
