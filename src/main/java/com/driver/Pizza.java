@@ -81,9 +81,8 @@ public class Pizza {
 
             billGenerated= true;
 
-            return this.bill;
         }
-        return "";
+        return this.bill;
 
     }
 }
