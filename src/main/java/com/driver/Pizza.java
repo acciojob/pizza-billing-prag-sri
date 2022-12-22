@@ -83,7 +83,7 @@ public class Pizza {
 
             return this.bill;
         }
-        return null;
+        return "";
 
     }
 }
